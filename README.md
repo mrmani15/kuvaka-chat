@@ -49,7 +49,7 @@ Kuvaka Chat is a real-time chat application that utilizes Socket.IO for seamless
 ## Folder structure for client:
 
 ```
-├── /build/                     # compiled output
+├── /dist/                     # compiled output
 ├── /node_modules/              # 3rd party lib
 ├── /public/                    # Static files and logo
 ├── /src/                       # The source code of the application
