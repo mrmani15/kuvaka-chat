@@ -33,13 +33,19 @@ Kuvaka Chat is a real-time chat application that utilizes Socket.IO for seamless
 
 ### Running Locally
 
-1. In the server and client folders, run the development servers:
+1. In the client folder, navigate to src/App.js and replace "https://kuvaka-server.onrender.com" with your local server url
+
+    ```bash
+    http://localhost:5000
+    ```
+
+2. In the server and client folders, run the development servers:
 
     ```bash
     npm run dev
     ```
 
-2. Open a web browser and navigate to:
+3. Open a web browser and navigate to:
 
     ```
     http://localhost:5173
