@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Input from "./components/Input";
 import Messages from "./components/Messages";
 
-const socket = io("https://kuvaka-server.onrender.com");
+const socket = io("http://localhost:5000");
 
 function App() {
   const [allMessages, setAllMessages] = useState([]);
